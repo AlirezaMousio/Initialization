@@ -238,7 +238,7 @@ print('MSE n1',MSE(o1))
 print('WSSE kol fml',(SSE(o0)+SSE(o1)+SSE(c0)+SSE(c1)+SSE(c4))/dff.shape[0])
 #Average MSE
 print('AVMSE kol fml',(MSE(o0)+MSE(o1))/2)
-#Sil nahaii
+#Sil Finall
 print('SCFmean',np.mean(SCF))
 #interoperability
 cll=dforg['clusters']
@@ -494,7 +494,7 @@ print('MSE n1',MSE(h1))
 print('WSSE kol fml',(SSE(h0)+SSE(h1)+SSE(c4)+SSE(c2)+SSE(c0))/dff.shape[0])
 #Average MSE
 print('AVMSE kol fml',(MSE(h0)+MSE(h1))/2)
-#Sil nahaii
+#Sil Finall
 print('SCFmean',np.mean(SCF))
 #Interpretability
 cll=X1['clusters']
